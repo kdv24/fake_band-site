@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="A layout example that shows off a responsive pricing table.">
 
-    <title>Screaming Newspapers</title>
+    <title>Screaming Newspapers header</title>
 
     <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
 
@@ -33,7 +33,7 @@
     <div class="pure-menu pure-menu-open pure-menu-horizontal">
         <a href="#" class="pure-menu-heading">Screaming Newspapers</a>
         <ul>
-            <li><a href="#">Home</a></li>
+            <li><a href="index.php">Home</a></li>
             <li class="pure-menu-selected"><a href="#">Albums</a></li>
             <li><a href="#">Tour</a></li>
         </ul>

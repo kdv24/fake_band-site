@@ -51,34 +51,18 @@
   
 <!--<![endif]-->
 
-
-
-
-
-  
     <!--[if lte IE 8]>
         <link rel="stylesheet" href="css/layouts/pricing-old-ie.css">
     <![endif]-->
     <!--[if gt IE 8]><!-->
-        <link rel="stylesheet" href="css/layouts/pricing.css">
+    <link rel="stylesheet" href="css/layouts/pricing.css">
     <!--<![endif]-->
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+
 </head>
 
 <body>
-    <div class="pure-menu pure-menu-open pure-menu-horizontal">
-        <a href="#" class="pure-menu-heading">Screaming Newspapers</a>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li class="pure-menu-selected"><a href="#">Albums</a></li>
-            <li><a href="#">Tour</a></li>
-        </ul>
-    </div>
-
-    <div class="banner">
-        <h1 class="banner-head">
-            Screaming Newspapers<br>
-            Rockin' the World!</h1>
-    </div>
+<?php include('inc/header.php'); ?>
 
     <div class="l-content">
         <div class="pricing-tables pure-g">
@@ -87,22 +71,20 @@
                     <div class="pricing-table-header">
                         <h2>Band Members</h2>
                     </div>
-
-                    <ul class="pricing-table-list">
-                        <li><?php echo $bandMember1; ?></li>
-                        <li><?php echo $bandMember2; ?></li>
-                        <li><?php echo $bandMember3; ?></li>
-                        <li><?php echo $bandMember4; ?></li>
-                        <li><?php echo $bandMember5; ?></li>
-                        <li><?php echo $bandMember6; ?></li>
-                    </ul>
+                    <ul class='pricing-table-list'>
+            <?php 
+            foreach ($bandMembers as $bandMember){
+                    echo "<li>" . $bandMember . "</li>";
+                }
+            ?>  
+                    </ul>      
                 </div>
             </div>
 
             <div class="pure-u-1 pure-u-md-1-3">
                 <div class="pricing-table pricing-table-biz pricing-table-selected">
                     <div class="pricing-table-header">
-                        <h2>Albums</h2>
+                        <h2><a href="albums.php">Albums</a></h2>
                     </div>
 
                     <ul class="pricing-table-list">
