@@ -88,7 +88,7 @@
         <div class="pricing-table-header">
         <h2>Enter Album Names</h2>
       </div>
-        <form action="index.php">
+        <form action="albums.php">
           <div class="pricing-tables">
             <div class="pricing-tables">
                 <label for"album1"><p>Album Name 1</p></label>

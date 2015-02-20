@@ -15,7 +15,7 @@
     $album4 = $_GET["album4"]; // => "url('http://www.gyllyngvase.co.uk/images/newspapers.jpg')"];    
     $album5 = $_GET["album5"]; // => "url('http://www.marshalldistrictlibrary.org/wp-content/uploads/2013/10/newspaper_shutterstock_124029454.jpg')"];
     $album6 = $_GET["album6"]; // => "url('http://thumb9.shutterstock.com/display_pic_with_logo/682771/682771,1297721524,2/stock-photo-letters-cut-from-newspaper-background-71192197.jpg')"];
-    $albums = array($album1, $album2, $album3, $album4, $album5, $album6); 
+    $albums = array($album1 => "$20", $album2 => "$15", $album3 => "$20", $album4 = "$25", $album5 => "$17", $album6 => "$20"); 
 ?>   
 
 <?php

@@ -46,8 +46,8 @@
 
             <div class="pure-u-1 pure-u-md-1-2">
                 <div class="l-box">
-                <?php foreach ($albums as $album => $albumCover){
-                    echo "<h3 class='information-head'>" . $album . "</h3>";
+                <?php foreach ($albums as $album => $price){
+                    echo "<h3 class='information-head'>" . $album . "</h3>" . "<h4>" . $price . "</h4>";
                 }
                 ?> 
                     
