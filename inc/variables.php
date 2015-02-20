@@ -9,12 +9,12 @@
 ?>    
 
 <?php
-    $album1 = $_GET["album1"];
-    $album2 = $_GET["album2"];
-    $album3 = $_GET["album3"];
-    $album4 = $_GET["album4"];    
-    $album5 = $_GET["album5"];
-    $album6 = $_GET["album6"];
+    $album1 = $_GET["album1"]; // => "url('http://rsnash7.files.wordpress.com/2011/11/newspaper_20icon_15b15d.jpg')"];
+    $album2 = $_GET["album2"]; // => "url('http://thumb101.shutterstock.com/display_pic_with_logo/78065/131607743/stock-photo-mock-up-of-a-daily-newspaper-on-a-white-background-the-name-title-headlines-and-stories-are-all-131607743.jpg')"];
+    $album3 = $_GET["album3"]; // => "url('http://www.tamooracademy.com/wp-content/uploads/2015/01/Newspaper.jpg')"];
+    $album4 = $_GET["album4"]; // => "url('http://www.gyllyngvase.co.uk/images/newspapers.jpg')"];    
+    $album5 = $_GET["album5"]; // => "url('http://www.marshalldistrictlibrary.org/wp-content/uploads/2013/10/newspaper_shutterstock_124029454.jpg')"];
+    $album6 = $_GET["album6"]; // => "url('http://thumb9.shutterstock.com/display_pic_with_logo/682771/682771,1297721524,2/stock-photo-letters-cut-from-newspaper-background-71192197.jpg')"];
     $albums = array($album1, $album2, $album3, $album4, $album5, $album6); 
 ?>   
 

@@ -1,3 +1,6 @@
+<?php include 'inc/variables.php';  
+?> 
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -44,5 +47,7 @@
             Screaming Newspapers<br>
             Rockin' the World!</h1>
     </div>
+
+    <?php echo "<h1>" . $bandMember1 . "</h1>"; ?>
 </body>
 </html>    
