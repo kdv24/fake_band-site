@@ -28,8 +28,9 @@
         <link rel="stylesheet" href="css/layouts/pricing-old-ie.css">
     <![endif]-->
     <!--[if gt IE 8]><!-->
-        <link rel="stylesheet" href="css/layouts/pricing.css">
+    <link rel="stylesheet" href="css/layouts/pricing.css">
     <!--<![endif]-->
+    <link rel="stylesheet" type="text/css" href="/css/styles.css">
 </head>
 
 <body>
@@ -48,6 +49,3 @@
             Rockin' the World!</h1>
     </div>
 
-    <?php echo "<h1>" . $bandMember1 . "</h1>"; ?>
-</body>
-</html>    

@@ -27,34 +27,22 @@
     <!--[if gt IE 8]><!-->
         <link rel="stylesheet" href="css/layouts/pricing.css">
     <!--<![endif]-->
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 
 <body>
 <?php include('inc/header.php'); ?>
         <div class="information pure-g">
-            <div class="pure-u-1 pure-u-md-1-2">
-                <div class="l-box">
-                    <h3 class="information-head">Image One holder</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
-                    </p>
-                </div>
-            </div>
-
-           
-
 
             <div class="pure-u-1 pure-u-md-1-2">
                 <div class="l-box">
                 <?php foreach ($albums as $album => $price){
                     echo "<h3 class='information-head'>" . $album . "</h3>" . "<h4>" . $price . "</h4>";
-                }
-                ?> 
-                    
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.
-                    </p>
+                
+                    echo "<div class='album-image'>" .
+                        "<img src='http://rsnash7.files.wordpress.com/2011/11/newspaper_20icon_15b15d.jpg'>" . "</div>";
+                    }
+                ?>  
                 </div>
             </div>
 
