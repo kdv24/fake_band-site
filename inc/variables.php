@@ -1,59 +1,61 @@
 <?php
-    $bandMember1 = $_POST["bandMember1"];
-    $bandMember2 = $_POST["bandMember2"];
-    $bandMember3 = $_POST["bandMember3"];
-    $bandMember4 = $_POST["bandMember4"];    
-    $bandMember5 = $_POST["bandMember5"];
-    $bandMember6 = $_POST["bandMember6"];
-    $bandMembers = array($bandMember1, $bandMember2, $bandMember3, $bandMember4, $bandMember5, $bandMember6);
-?>    
+    $bandMemberName1 = $_GET["bandMemberName1"];
+    $bandMemberName2 = $_GET["bandMemberName2"];
+    $bandMemberName3 = $_GET["bandMemberName3"];
+    $bandMemberName4 = $_GET["bandMemberName4"];    
+    $bandMemberName5 = $_GET["bandMemberName5"];
+    $bandMemberName6 = $_GET["bandMemberName6"];
+ 
+    $bandMemberInstrument1 = $_GET["bandMemberInstrument1"];
+    $bandMemberInstrument2 = $_GET["bandMemberInstrument2"];
+    $bandMemberInstrument3 = $_GET["bandMemberInstrument3"];
+    $bandMemberInstrument4 = $_GET["bandMemberInstrument4"];    
+    $bandMemberInstrument5 = $_GET["bandMemberInstrument5"];
+    $bandMemberInstrument6 = $_GET["bandMemberInstrument6"];
 
-<?php
-    $bandMemberInstrument1 = $_POST["bandMemberInstrument1"];
-    $bandMemberInstrument2 = $_POST["bandMemberInstrument2"];
-    $bandMemberInstrument3 = $_POST["bandMemberInstrument3"];
-    $bandMemberInstrument4 = $_POST["bandMemberInstrument4"];    
-    $bandMemberInstrument5 = $_POST["bandMemberInstrument5"];
-    $bandMemberInstrument6 = $_POST["bandMemberInstrument6"];
-    $bandMemberInstruments = array($bandMemberInstrument1, $bandMemberInstrument2, $bandMemberInstrument3, $bandMemberInstrument4, $bandMemberInstrument5, $bandMemberInstrument6);
+    $bandMembers[$bandMemberName1] = $bandMemberInstrument1;
+    $bandMembers[$bandMemberName2] = $bandMemberInstrument2;
+    $bandMembers[$bandMemberName3] = $bandMemberInstrument3;
+    $bandMembers[$bandMemberName4] = $bandMemberInstrument4;
+    $bandMembers[$bandMemberName5] = $bandMemberInstrument5;
+    $bandMembers[$bandMemberName6] = $bandMemberInstrument6;  
 ?>  
 
 <?php
-    $album1 = $_POST["album1"]; // => "url('http://rsnash7.files.wordpress.com/2011/11/newspaper_20icon_15b15d.jpg')"];
-    $album2 = $_POST["album2"]; // => "url('http://thumb101.shutterstock.com/display_pic_with_logo/78065/131607743/stock-photo-mock-up-of-a-daily-newspaper-on-a-white-background-the-name-title-headlines-and-stories-are-all-131607743.jpg')"];
-    $album3 = $_POST["album3"]; // => "url('http://www.tamooracademy.com/wp-content/uploads/2015/01/Newspaper.jpg')"];
-    $album4 = $_POST["album4"]; // => "url('http://www.gyllyngvase.co.uk/images/newspapers.jpg')"];    
-    $album5 = $_POST["album5"]; // => "url('http://www.marshalldistrictlibrary.org/wp-content/uploads/2013/10/newspaper_shutterstock_124029454.jpg')"];
-    $album6 = $_POST["album6"]; // => "url('http://thumb9.shutterstock.com/display_pic_with_logo/682771/682771,1297721524,2/stock-photo-letters-cut-from-newspaper-background-71192197.jpg')"];
-    $albums = array($album1 => "$20", $album2 => "$15", $album3 => "$20", $album4 = "$25", $album5 => "$17", $album6 => "$20"); 
-?>   
+    $albumName1 = $_GET["albumName1"]; // => "url('http://rsnash7.files.wordpress.com/2011/11/newspaper_20icon_15b15d.jpg')"];
+    $albumName2 = $_GET["albumName2"]; // => "url('http://thumb101.shutterstock.com/display_pic_with_logo/78065/131607743/stock-photo-mock-up-of-a-daily-newspaper-on-a-white-background-the-name-title-headlines-and-stories-are-all-131607743.jpg')"];
+    $albumName3 = $_GET["albumName3"]; // => "url('http://www.tamooracademy.com/wp-content/uploads/2015/01/Newspaper.jpg')"];
+    $albumName4 = $_GET["albumName4"]; // => "url('http://www.gyllyngvase.co.uk/images/newspapers.jpg')"];    
+    $albumName5 = $_GET["albumName5"]; // => "url('http://www.marshalldistrictlibrary.org/wp-content/uploads/2013/10/newspaper_shutterstock_124029454.jpg')"];
+    $albumName6 = $_GET["albumName6"]; // => "url('http://thumb9.shutterstock.com/display_pic_with_logo/682771/682771,1297721524,2/stock-photo-letters-cut-from-newspaper-background-71192197.jpg')"];
+ 
+    $albumPrice1 = $_GET["albumPrice1"]; // => "url('http://rsnash7.files.wordpress.com/2011/11/newspaper_20icon_15b15d.jpg')"];
+    $albumPrice2 = $_GET["albumPrice2"]; // => "url('http://thumb101.shutterstock.com/display_pic_with_logo/78065/131607743/stock-photo-mock-up-of-a-daily-newspaper-on-a-white-background-the-name-title-headlines-and-stories-are-all-131607743.jpg')"];
+    $albumPrice3 = $_GET["albumPrice3"]; // => "url('http://www.tamooracademy.com/wp-content/uploads/2015/01/Newspaper.jpg')"];
+    $albumPrice4 = $_GET["albumPrice4"]; // => "url('http://www.gyllyngvase.co.uk/images/newspapers.jpg')"];    
+    $albumPrice5 = $_GET["albumPrice5"]; // => "url('http://www.marshalldistrictlibrary.org/wp-content/uploads/2013/10/newspaper_shutterstock_124029454.jpg')"];
+    $albumPrice6 = $_GET["albumPrice6"]; // => "url('http://thumb9.shutterstock.com/display_pic_with_logo/682771/682771,1297721524,2/stock-photo-letters-cut-from-newspaper-background-71192197.jpg')"];
+    $albums[$albumName] = $albumPrice;
 
-<?php
-    $albumPrice1 = $_POST["albumPrice1"]; // => "url('http://rsnash7.files.wordpress.com/2011/11/newspaper_20icon_15b15d.jpg')"];
-    $albumPrice2 = $_POST["albumPrice2"]; // => "url('http://thumb101.shutterstock.com/display_pic_with_logo/78065/131607743/stock-photo-mock-up-of-a-daily-newspaper-on-a-white-background-the-name-title-headlines-and-stories-are-all-131607743.jpg')"];
-    $albumPrice3 = $_POST["albumPrice3"]; // => "url('http://www.tamooracademy.com/wp-content/uploads/2015/01/Newspaper.jpg')"];
-    $albumPrice4 = $_POST["albumPrice4"]; // => "url('http://www.gyllyngvase.co.uk/images/newspapers.jpg')"];    
-    $albumPrice5 = $_POST["albumPrice5"]; // => "url('http://www.marshalldistrictlibrary.org/wp-content/uploads/2013/10/newspaper_shutterstock_124029454.jpg')"];
-    $albumPrice6 = $_POST["albumPrice6"]; // => "url('http://thumb9.shutterstock.com/display_pic_with_logo/682771/682771,1297721524,2/stock-photo-letters-cut-from-newspaper-background-71192197.jpg')"];
-    $albumPrices = array($albumPrice1, $albumPrice2, $albumPrice3, $albumPrice4, $albumPrice5, $albumPrice6); 
+
 ?>  
 
 <?php
-    $tourDate1 = $_POST["tourDate1"];
-    $tourDate2 = $_POST["tourDate2"];
-    $tourDate3 = $_POST["tourDate3"];
-    $tourDate4 = $_POST["tourDate4"];    
-    $tourDate5 = $_POST["tourDate5"];
-    $tourDate6 = $_POST["tourDate6"];
+    $tourDate1 = $_GET["tourDate1"];
+    $tourDate2 = $_GET["tourDate2"];
+    $tourDate3 = $_GET["tourDate3"];
+    $tourDate4 = $_GET["tourDate4"];    
+    $tourDate5 = $_GET["tourDate5"];
+    $tourDate6 = $_GET["tourDate6"];
     $tourDates = array($tourDate1, $tourDate2, $tourDate3, $tourDate4, $tourDate5, $tourDate6);    
 ?> 
 
 <?php
-    $tourCity1 = $_POST["tourCity1"];
-    $tourCity2 = $_POST["tourCity2"];
-    $tourCity3 = $_POST["tourCity3"];
-    $tourCity4 = $_POST["tourCity4"];    
-    $tourCity5 = $_POST["tourCity5"];
-    $tourCity6 = $_POST["tourCity6"];
+    $tourCity1 = $_GET["tourCity1"];
+    $tourCity2 = $_GET["tourCity2"];
+    $tourCity3 = $_GET["tourCity3"];
+    $tourCity4 = $_GET["tourCity4"];    
+    $tourCity5 = $_GET["tourCity5"];
+    $tourCity6 = $_GET["tourCity6"];
     $tourCitys = array($tourCity1, $tourDate2, $tourDate3, $tourDate4, $tourDate5, $tourDate6);    
 ?> 
