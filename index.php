@@ -45,8 +45,8 @@
                     </div>
                     <ul class='pricing-table-list'>
             <?php 
-            foreach ($bandMembers as $bandMember){
-                    echo "<li>" . $bandMember . "</li>";
+            foreach ($bandMembers as $bandMember) && ($bandMemberInstruments as $bandMemberInstrument) {
+                    echo "<li>" . $bandMember . " on " . $bandMemberInstrument "</li>";
                 }
             ?>  
                     </ul>      

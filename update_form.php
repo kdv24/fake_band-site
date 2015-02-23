@@ -55,7 +55,7 @@
           <div class="pure-form">
             <fieldset>
             <div class="bandMember1">
-                <label for"bandMember1"><p>bandMember Name</p></label>
+                <label for"bandMember1"><p>Band Member Name</p></label>
                 <input id="bandMember1" name="bandMember1" class="form-control" type="text">  
                 <label for"bandMemberInstrument1"><p>Instrument</p></label>
                 <input id="bandMemberInstrument1" name="bandMemberInstrument1" class="form-control" type="text">
@@ -63,7 +63,7 @@
             </fieldset>
             <fieldset>
             <div class="bandMember2">
-                <label for"bandMember2"><p>bandMember Name</p></label>
+                <label for"bandMember2"><p>Band Member Name</p></label>
                 <input id="bandMember2" name="bandMember2" class="form-control" type="text">  
                 <label for"bandMemberInstrument2"><p>Instrument</p></label>
                 <input id="bandMemberInstrument2" name="bandMemberInstrument2" class="form-control" type="text">
@@ -72,7 +72,7 @@
 
             <fieldset>
             <div class="bandMember3">
-                <label for"bandMember3"><p>bandMember Name</p></label>
+                <label for"bandMember3"><p>Band Member Name</p></label>
                 <input id="bandMember3" name="bandMember3" class="form-control" type="text">  
                 <label for"bandMemberInstrument3"><p>Instrument</p></label>
                 <input id="bandMemberInstrument3" name="bandMemberInstrument3" class="form-control" type="text">
@@ -80,7 +80,7 @@
             </fieldset>
             <fieldset>
             <div class="bandMember4">
-                <label for"bandMember4"><p>bandMember Name</p></label>
+                <label for"bandMember4"><p>Band Member Name</p></label>
                 <input id="bandMember4" name="bandMember4" class="form-control" type="text">  
                 <label for"bandMemberInstrument4"><p>Instrument</p></label>
                 <input id="bandMemberInstrument4" name="bandMemberInstrument4" class="form-control" type="text">
@@ -88,7 +88,7 @@
             </fieldset>   
             <fieldset>
             <div class="bandMember5">
-                <label for"bandMember5"><p>bandMember Name</p></label>
+                <label for"bandMember5"><p>Band Member Name</p></label>
                 <input id="bandMember5" name="bandMember5" class="form-control" type="text">  
                 <label for"bandMemberInstrument5"><p>Instrument</p></label>
                 <input id="bandMemberInstrument5" name="bandMemberInstrument5" class="form-control" type="text">
@@ -96,7 +96,7 @@
             </fieldset>
             <fieldset>
             <div class="bandMember6">
-                <label for"bandMember6"><p>bandMember Name</p></label>
+                <label for"bandMember6"><p>Band Member Name</p></label>
                 <input id="bandMember6" name="bandMember5" class="form-control" type="text">  
                 <label for"bandMemberInstrument6"><p>Instrument</p></label>
                 <input id="bandMemberInstrument6" name="bandMemberInstrument6" class="form-control" type="text">
@@ -179,7 +179,8 @@
         <div class="pricing-table-header">
         <h2>Update Tour Dates and Cities</h2>
         </div>
-        <form action="index.php" class="pure-form">
+        <form action="index.php">
+            <div class="pure-form">
         
             <fieldset>
             <div class="tourDate1">
@@ -234,7 +235,7 @@
           <button type="submit" class="btn">"Submit"</button>
         </form>
       </div>
-    </div>    
+   
 
   </div>
 </div>
