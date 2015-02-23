@@ -127,41 +127,65 @@
 
     <!-- TOUR DATES -->
     <div class="pure-u-1 pure-u-md-1-3">
-      <div class="pricing-table">
+
         <div class="pricing-table-header">
         <h2>Enter tour dates and cities</h2>
-      </div>
+        </div>
         <form action="index.php">
-          <div class="pricing-tables">
-            <div class="pricing-tables">
-                <label for"bandMember1"><p>band member 1</p></label>
-                <input id="bandMember1" name="bandMember1" class="form-control" type="text">  
+          <form class="pure-form">
+            <fieldset>
+            <div class="tourDate1">
+                <label for"tourDate1"><p>Date</p></label>
+                <input id="tourDate1" name="tourDate1" class="form-control" type="text">  
+                <label for"tourCity1"><p>City</p></label>
+                <input id="tourCity1" name="tourCity1" class="form-control" type="text">  
             </div>  
-            <div class="pricing-tables">
-                <label for="bandMember2"><p>band member 2</p></label>
-                <input id="bandMember2" name="bandMember2" class="form-control" type="text">
-            </div>
-            <div class="pricing-tables">
-                <label for="bandMember3"><p>band member 3</p></label>
-                <input id="bandMember3" name="bandMember3" class="form-control" type="text">
-            </div>
-            <div class="pricing-tables">
-                <label for="bandMember4"><p>band member 4</p></label>
-                <input id="bandMember4" name="bandMember4" class="form-control" type="text">
-            </div>    
-            <div class="pricing-tables">
-                <label for="bandMember5"><p>band member 5</p></label>
-                <input id="bandMember5" name="bandMember5" class="form-control" type="text">
-            </div>
-            <div class="pricing-tables">
-                <label for="bandMember6"><p>band member 6</p></label>
-                <input id="bandMember6" name="bandMember6" class="form-control" type="text">
-            </div>               
+            </fieldset>
+            <fieldset>
+            <div class="tourDate2">
+                <label for"tourDate2"><p>Date</p></label>
+                <input id="tourDate2" name="tourDate2" class="form-control" type="text">  
+                <label for"tourCity2"><p>City</p></label>
+                <input id="tourCity2" name="tourCity2" class="form-control" type="text">  
+            </div>  
+            </fieldset>
+            <fieldset>
+            <div class="tourDate3">
+                <label for"tourDate3"><p>Date</p></label>
+                <input id="tourDate3" name="tourDate3" class="form-control" type="text">  
+                <label for"tourCity3"><p>City</p></label>
+                <input id="tourCity3" name="tourCity3" class="form-control" type="text">  
+            </div>  
+            </fieldset>
+            <fieldset>
+            <div class="tourDate4">
+                <label for"tourDate4"><p>Date</p></label>
+                <input id="tourDate4" name="tourDate4" class="form-control" type="text">  
+                <label for"tourCity4"><p>City</p></label>
+                <input id="tourCity4" name="tourCity4" class="form-control" type="text">  
+            </div>  
+            </fieldset>    
+            <fieldset>
+            <div class="tourDate5">
+                <label for"tourDate5"><p>Date</p></label>
+                <input id="tourDate5" name="tourDate5" class="form-control" type="text">  
+                <label for"tourCity5"><p>City</p></label>
+                <input id="tourCity5" name="tourCity5" class="form-control" type="text">  
+            </div>  
+            </fieldset>
+            <fieldset>
+            <div class="tourDate6">
+                <label for"tourDate6"><p>Date</p></label>
+                <input id="tourDate6" name="tourDate6" class="form-control" type="text">  
+                <label for"tourCity6"><p>City</p></label>
+                <input id="tourCity6" name="tourCity6" class="form-control" type="text">  
+            </div>  
+            </fieldset>              
           </div>  
 
           <button type="submit" class="btn">"Submit"</button>
         </form>
-        </div>
+
     </div>    
 
   </div>
