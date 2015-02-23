@@ -49,34 +49,59 @@
     <div class="pure-u-1 pure-u-md-1-3">
       <div class="pricing-table pricing-table-free">
         <div class="pricing-table-header">
-        <h2>Enter band member names</h2>
+        <h2>Update band member names</h2>
       </div>
         <form action="index.php">
-          <div class="pricing-tables">
-            <div class="pricing-tables">
-                <label for"bandMember1"><p>band member 1</p></label>
+          <div class="pure-form">
+            <fieldset>
+            <div class="bandMember1">
+                <label for"bandMember1"><p>bandMember Name</p></label>
                 <input id="bandMember1" name="bandMember1" class="form-control" type="text">  
-			</div>	
-            <div class="pricing-tables">
-                <label for="bandMember2"><p>band member 2</p></label>
-                <input id="bandMember2" name="bandMember2" class="form-control" type="text">
-            </div>
-            <div class="pricing-tables">
-                <label for="bandMember3"><p>band member 3</p></label>
-                <input id="bandMember3" name="bandMember3" class="form-control" type="text">
-            </div>
-            <div class="pricing-tables">
-                <label for="bandMember4"><p>band member 4</p></label>
-                <input id="bandMember4" name="bandMember4" class="form-control" type="text">
-            </div>    
-            <div class="pricing-tables">
-                <label for="bandMember5"><p>band member 5</p></label>
-                <input id="bandMember5" name="bandMember5" class="form-control" type="text">
-            </div>
-            <div class="pricing-tables">
-                <label for="bandMember6"><p>band member 6</p></label>
-                <input id="bandMember6" name="bandMember6" class="form-control" type="text">
-            </div>               
+                <label for"bandMemberInstrument1"><p>Instrument</p></label>
+                <input id="bandMemberInstrument1" name="bandMemberInstrument1" class="form-control" type="text">
+            </div>  
+            </fieldset>
+            <fieldset>
+            <div class="bandMember2">
+                <label for"bandMember2"><p>bandMember Name</p></label>
+                <input id="bandMember2" name="bandMember2" class="form-control" type="text">  
+                <label for"bandMemberInstrument2"><p>Instrument</p></label>
+                <input id="bandMemberInstrument2" name="bandMemberInstrument2" class="form-control" type="text">
+            </div>  
+            </fieldset>
+
+            <fieldset>
+            <div class="bandMember3">
+                <label for"bandMember3"><p>bandMember Name</p></label>
+                <input id="bandMember3" name="bandMember3" class="form-control" type="text">  
+                <label for"bandMemberInstrument3"><p>Instrument</p></label>
+                <input id="bandMemberInstrument3" name="bandMemberInstrument3" class="form-control" type="text">
+            </div>  
+            </fieldset>
+            <fieldset>
+            <div class="bandMember4">
+                <label for"bandMember4"><p>bandMember Name</p></label>
+                <input id="bandMember4" name="bandMember4" class="form-control" type="text">  
+                <label for"bandMemberInstrument4"><p>Instrument</p></label>
+                <input id="bandMemberInstrument4" name="bandMemberInstrument4" class="form-control" type="text">
+            </div>  
+            </fieldset>   
+            <fieldset>
+            <div class="bandMember5">
+                <label for"bandMember5"><p>bandMember Name</p></label>
+                <input id="bandMember5" name="bandMember5" class="form-control" type="text">  
+                <label for"bandMemberInstrument5"><p>Instrument</p></label>
+                <input id="bandMemberInstrument5" name="bandMemberInstrument5" class="form-control" type="text">
+            </div>  
+            </fieldset>
+            <fieldset>
+            <div class="bandMember6">
+                <label for"bandMember6"><p>bandMember Name</p></label>
+                <input id="bandMember6" name="bandMember5" class="form-control" type="text">  
+                <label for"bandMemberInstrument6"><p>Instrument</p></label>
+                <input id="bandMemberInstrument6" name="bandMemberInstrument6" class="form-control" type="text">
+            </div>  
+            </fieldset>               
           </div>  
 
           <button type="submit" class="btn">"Submit"</button>
@@ -88,36 +113,59 @@
     <div class="pure-u-1 pure-u-md-1-3">
       <div class="pricing-table pricing-table-biz">
         <div class="pricing-table-header">
-        <h2>Enter Album Names</h2>
-      </div>
+        <h2>Update Album Names and Prices</h2>
+        </div>
         <form action="albums.php">
-          <div class="pricing-tables">
-            <div class="pricing-tables">
-                <label for"album1"><p>Album Name 1</p></label>
+          <div class="pure-form">
+            <fieldset>
+            <div class="album1">
+                <label for"album1"><p>Album Name</p></label>
                 <input id="album1" name="album1" class="form-control" type="text">  
-                <label for"tourDate1"><p>Date</p></label>
-                <input id="tourDate1" name="tourDate1" class="form-control" type="text">
+                <label for"albumPrice1"><p>Price</p></label>
+                <input id="albumPrice1" name="albumPrice1" class="form-control" type="text">
             </div>  
-            <div class="pricing-tables">
-                <label for="album2"><p>Album Name 2</p></label>
-                <input id="album2" name="album2" class="form-control" type="text">
-            </div>
-            <div class="pricing-tables">
-                <label for="album3"><p>Album Name 3</p></label>
-                <input id="album3" name="album3" class="form-control" type="text">
-            </div>
-            <div class="pricing-tables">
-                <label for="album4"><p>Album Name 4</p></label>
-                <input id="album4" name="album4" class="form-control" type="text">
-            </div>    
-            <div class="pricing-tables">
-                <label for="album5"><p>Album Name 5</p></label>
-                <input id="album5" name="album5" class="form-control" type="text">
-            </div>
-            <div class="pricing-tables">
-                <label for="album6"><p>Album Name 6</p></label>
-                <input id="album6" name="album6" class="form-control" type="text">
-            </div>               
+            </fieldset>
+            <fieldset>
+            <div class="album2">
+                <label for"album2"><p>Album Name</p></label>
+                <input id="album2" name="album2" class="form-control" type="text">  
+                <label for"albumPrice2"><p>Price</p></label>
+                <input id="albumPrice2" name="albumPrice2" class="form-control" type="text">
+            </div>  
+            </fieldset>
+
+            <fieldset>
+            <div class="album3">
+                <label for"album3"><p>Album Name</p></label>
+                <input id="album3" name="album2" class="form-control" type="text">  
+                <label for"albumPrice3"><p>Price</p></label>
+                <input id="albumPrice3" name="albumPrice3" class="form-control" type="text">
+            </div>  
+            </fieldset>
+            <fieldset>
+            <div class="album4">
+                <label for"album4"><p>Album Name</p></label>
+                <input id="album4" name="album4" class="form-control" type="text">  
+                <label for"albumPrice4"><p>Price</p></label>
+                <input id="albumPrice4" name="albumPrice4" class="form-control" type="text">
+            </div>  
+            </fieldset>   
+            <fieldset>
+            <div class="album5">
+                <label for"album5"><p>Album Name</p></label>
+                <input id="album5" name="album5" class="form-control" type="text">  
+                <label for"albumPrice5"><p>Price</p></label>
+                <input id="albumPrice5" name="albumPrice5" class="form-control" type="text">
+            </div>  
+            </fieldset>
+            <fieldset>
+            <div class="album6">
+                <label for"album6"><p>Album Name</p></label>
+                <input id="album6" name="album6" class="form-control" type="text">  
+                <label for"albumPrice6"><p>Price</p></label>
+                <input id="albumPrice6" name="albumPrice6" class="form-control" type="text">
+            </div>  
+            </fieldset>               
           </div>  
 
           <button type="submit" class="btn">"Submit"</button>
@@ -127,12 +175,12 @@
 
     <!-- TOUR DATES -->
     <div class="pure-u-1 pure-u-md-1-3">
-
+      <div class="pricing-table pricing-table">
         <div class="pricing-table-header">
-        <h2>Enter tour dates and cities</h2>
+        <h2>Update Tour Dates and Cities</h2>
         </div>
-        <form action="index.php">
-          <form class="pure-form">
+        <form action="index.php" class="pure-form">
+        
             <fieldset>
             <div class="tourDate1">
                 <label for"tourDate1"><p>Date</p></label>
@@ -185,7 +233,7 @@
 
           <button type="submit" class="btn">"Submit"</button>
         </form>
-
+      </div>
     </div>    
 
   </div>
