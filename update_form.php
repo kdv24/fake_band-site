@@ -40,6 +40,8 @@
 </head>
 <body>
 
+<?php include('inc/header.php'); ?>
+
 <div class="l-content">
   <div class="pricing-tables pure-g">
 
@@ -93,6 +95,8 @@
             <div class="pricing-tables">
                 <label for"album1"><p>Album Name 1</p></label>
                 <input id="album1" name="album1" class="form-control" type="text">  
+                <label for"tourDate1"><p>Date</p></label>
+                <input id="tourDate1" name="tourDate1" class="form-control" type="text">
             </div>  
             <div class="pricing-tables">
                 <label for="album2"><p>Album Name 2</p></label>

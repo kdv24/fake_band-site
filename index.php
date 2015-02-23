@@ -72,16 +72,16 @@
             <div class="pure-u-1 pure-u-md-1-3">
                 <div class="pricing-table pricing-table-enterprise">
                     <div class="pricing-table-header">
-                        <h2>Tour</h2>
+                        <h2><a href="tour-dates.php">Tour Dates</a></h2>
                     </div>
 
                     <ul class="pricing-table-list">
-                        <li><?php echo $tourDate1; ?></li>
-                        <li><?php echo $tourDate2; ?></li>
-                        <li><?php echo $tourDate3; ?></li>
-                        <li><?php echo $tourDate4; ?></li>
-                        <li><?php echo $tourDate5; ?></li>
-                        <li><?php echo $tourDate6; ?></li>
+                        <li><?php echo $tourDate1 . " in " . $tourCity1; ?></li>
+                        <li><?php echo $tourDate2 . " in " . $tourCity2; ?></li>
+                        <li><?php echo $tourDate3 . " in " . $tourCity3; ?></li>
+                        <li><?php echo $tourDate4 . " in " . $tourCity4; ?></li>
+                        <li><?php echo $tourDate5 . " in " . $tourCity5; ?></li>
+                        <li><?php echo $tourDate6 . " in " . $tourCity6; ?></li>
                     </ul>
                 </div>
             </div>

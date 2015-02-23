@@ -27,3 +27,13 @@
     $tourDate6 = $_GET["tourDate6"];
     $tourDates = array($tourDate1, $tourDate2, $tourDate3, $tourDate4, $tourDate5, $tourDate6);    
 ?> 
+
+<?php
+    $tourCity1 = $_GET["tourCity1"];
+    $tourCity2 = $_GET["tourCity2"];
+    $tourCity3 = $_GET["tourCity3"];
+    $tourCity4 = $_GET["tourCity4"];    
+    $tourCity5 = $_GET["tourCity5"];
+    $tourCity6 = $_GET["tourCity6"];
+    $tourCitys = array($tourCity1, $tourDate2, $tourDate3, $tourDate4, $tourDate5, $tourDate6);    
+?> 

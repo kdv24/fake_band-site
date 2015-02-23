@@ -35,11 +35,11 @@
 
 <body>
     <div class="pure-menu pure-menu-open pure-menu-horizontal">
-        <a href="#" class="pure-menu-heading">Screaming Newspapers</a>
+        <a href="index.php" class="pure-menu-heading">Screaming Newspapers</a>
         <ul>
             <li><a href="index.php">Home</a></li>
-            <li class="pure-menu-selected"><a href="#">Albums</a></li>
-            <li><a href="#">Tour</a></li>
+            <li class="pure-menu-selected"><a href="albums.php">Albums</a></li>
+            <li><a href="tour-dates.php">Tour</a></li>
         </ul>
     </div>
 
