@@ -44,14 +44,14 @@
 
 <div class="l-content">
   <div class="pricing-tables pure-g">
-
+        <form action="index.php">
     <!-- BAND MEMBER NAMES -->
     <div class="pure-u-1 pure-u-md-1-3">
       <div class="pricing-table pricing-table-free">
         <div class="pricing-table-header">
         <h2>Update band member names</h2>
       </div>
-        <form action="index.php">
+
           <div class="pure-form">
             <fieldset>
             <div class="bandMemberName1">
@@ -104,8 +104,8 @@
             </fieldset>               
           </div>  
 
-          <button type="submit" class="btn">"Submit"</button>
-        </form>
+
+
         </div>
     </div>
 
@@ -115,7 +115,7 @@
         <div class="pricing-table-header">
         <h2>Update Album Names and Prices</h2>
         </div>
-        <form action="index.php">
+
           <div class="pure-form">
             <fieldset>
             <div class="albumName1">
@@ -168,8 +168,7 @@
             </fieldset>               
           </div>  
 
-          <button type="submit" class="btn">"Submit"</button>
-        </form>
+
         </div>
     </div>
 
@@ -232,11 +231,11 @@
             </fieldset>              
           </div>  
 
-          <button type="submit" class="btn">"Submit"</button>
-        </form>
+
       </div>
    
-
+          <button type="submit" class="btn">"Submit"</button>
+        </form>
   </div>
 </div>
 
