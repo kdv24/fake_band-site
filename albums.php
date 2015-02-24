@@ -1,5 +1,3 @@
-
-
 <!doctype html>
 <html lang="en">
 <head>
@@ -36,9 +34,9 @@
 
             <div class="pure-u-1 pure-u-md-1-2">
                 <div class="l-box">
-                <?php foreach ($albums as $album => $price){
-                    echo "<h3 class='information-head'>" . $album . "</h3>" . "<h4>" . $price . "</h4>";
-                
+                <?php foreach ($albums as $name => $price){
+                    echo "<h3 class='information-head'>" . "$name $" . "$price" . "</h3>";
+
                     echo "<div class='album-image'>" .
                         "<img src='http://rsnash7.files.wordpress.com/2011/11/newspaper_20icon_15b15d.jpg'>" . "</div>";
                     }
