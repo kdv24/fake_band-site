@@ -99,7 +99,7 @@
             <fieldset>
             <div class="bandMemberName6">
                 <label for"bandMemberName6"><p>Band Member Name</p></label>
-                <input id="bandMemberName6" name="bandMemberName5" class="form-control" type="text">  
+                <input id="bandMemberName6" name="bandMemberName6" class="form-control" type="text">  
                 <label for"bandMemberInstrument6"><p>Instrument</p></label>
                 <input id="bandMemberInstrument6" name="bandMemberInstrument6" class="form-control" type="text">
             </div>  
@@ -139,7 +139,7 @@
             <fieldset>
             <div class="albumName3">
                 <label for"albumName3"><p>Album Name</p></label>
-                <input id="albumName3" name="albumName2" class="form-control" type="text">  
+                <input id="albumName3" name="albumName3" class="form-control" type="text">  
                 <label for"albumPrice3"><p>Price</p></label>
                 <input id="albumPrice3" name="albumPrice3" class="form-control" type="text">
             </div>  
@@ -151,23 +151,7 @@
                 <label for"albumPrice4"><p>Price</p></label>
                 <input id="albumPrice4" name="albumPrice4" class="form-control" type="text">
             </div>  
-            </fieldset>   
-            <fieldset>
-            <div class="albumName5">
-                <label for"albumName5"><p>Album Name</p></label>
-                <input id="albumName5" name="albumName5" class="form-control" type="text">  
-                <label for"albumPrice5"><p>Price</p></label>
-                <input id="albumPrice5" name="albumPrice5" class="form-control" type="text">
-            </div>  
-            </fieldset>
-            <fieldset>
-            <div class="albumName6">
-                <label for"albumName6"><p>Album Name</p></label>
-                <input id="albumName6" name="albumName6" class="form-control" type="text">  
-                <label for"albumPrice6"><p>Price</p></label>
-                <input id="albumPrice6" name="albumPrice6" class="form-control" type="text">
-            </div>  
-            </fieldset>               
+            </fieldset>                 
           </div>  
 
 

@@ -38,27 +38,37 @@ header h1 {
 	border: 2px solid black;
 	margin-left: auto;
 	margin-right: auto;
+	padding: 2%;
 
 }
 
 .bottom-section {
 	background-color: lightblue;
 	font-family: 'Arvo', serif;
+	width: 100%;
+	margin-left: auto;
 }
 
 .bottom-left {
 	background-color: lightgreen;
 	border: 2px solid darkgreen;
+	width: 30%;
+	float: left;
 }
 
 .bottom-middle {
 	background-color: lightblue;
 	border: 2px solid blue;
+	width: 30%;
+	float: left;
+	margin-left: 20px;	
 }
 
 .bottom-right {
 	background-color: pink;
 	border: 2px solid red;
+	width: 30%;	
+	float: right;
 }
 
 .full-width {
@@ -70,7 +80,7 @@ header h1 {
 .update-button {
 	background-color: orange;
 	width: 100px;
-
+	margin-top: 20%;
 
 }
 

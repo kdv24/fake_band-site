@@ -22,28 +22,22 @@
 ?>  
 
 <?php
-    $albumName1 = $_GET["albumName1"]; // => "url('http://rsnash7.files.wordpress.com/2011/11/newspaper_20icon_15b15d.jpg')"];
-    $albumName2 = $_GET["albumName2"]; // => "url('http://thumb101.shutterstock.com/display_pic_with_logo/78065/131607743/stock-photo-mock-up-of-a-daily-newspaper-on-a-white-background-the-name-title-headlines-and-stories-are-all-131607743.jpg')"];
-    $albumName3 = $_GET["albumName3"]; // => "url('http://www.tamooracademy.com/wp-content/uploads/2015/01/Newspaper.jpg')"];
-    $albumName4 = $_GET["albumName4"]; // => "url('http://www.gyllyngvase.co.uk/images/newspapers.jpg')"];    
-    $albumName5 = $_GET["albumName5"]; // => "url('http://www.marshalldistrictlibrary.org/wp-content/uploads/2013/10/newspaper_shutterstock_124029454.jpg')"];
-    $albumName6 = $_GET["albumName6"]; // => "url('http://thumb9.shutterstock.com/display_pic_with_logo/682771/682771,1297721524,2/stock-photo-letters-cut-from-newspaper-background-71192197.jpg')"];
+    $albumName1 = $_GET["albumName1"];
+    $albumName2 = $_GET["albumName2"];
+    $albumName3 = $_GET["albumName3"];
+    $albumName4 = $_GET["albumName4"];     
+
  
-    $albumPrice1 = $_GET["albumPrice1"]; // => "url('http://rsnash7.files.wordpress.com/2011/11/newspaper_20icon_15b15d.jpg')"];
-    $albumPrice2 = $_GET["albumPrice2"]; // => "url('http://thumb101.shutterstock.com/display_pic_with_logo/78065/131607743/stock-photo-mock-up-of-a-daily-newspaper-on-a-white-background-the-name-title-headlines-and-stories-are-all-131607743.jpg')"];
-    $albumPrice3 = $_GET["albumPrice3"]; // => "url('http://www.tamooracademy.com/wp-content/uploads/2015/01/Newspaper.jpg')"];
-    $albumPrice4 = $_GET["albumPrice4"]; // => "url('http://www.gyllyngvase.co.uk/images/newspapers.jpg')"];    
-    $albumPrice5 = $_GET["albumPrice5"]; // => "url('http://www.marshalldistrictlibrary.org/wp-content/uploads/2013/10/newspaper_shutterstock_124029454.jpg')"];
-    $albumPrice6 = $_GET["albumPrice6"]; // => "url('http://thumb9.shutterstock.com/display_pic_with_logo/682771/682771,1297721524,2/stock-photo-letters-cut-from-newspaper-background-71192197.jpg')"];
+    $albumPrice1 = $_GET["albumPrice1"];
+    $albumPrice2 = $_GET["albumPrice2"]; 
+    $albumPrice3 = $_GET["albumPrice3"]; 
+    $albumPrice4 = $_GET["albumPrice4"];   
+
  
     $albums[$albumName1] = $albumPrice1;
     $albums[$albumName2] = $albumPrice2;
     $albums[$albumName3] = $albumPrice3;
     $albums[$albumName4] = $albumPrice4;
-    $albums[$albumName5] = $albumPrice5;
-    $albums[$albumName6] = $albumPrice6;
-
-
 ?>  
 
 <?php
@@ -94,20 +88,20 @@
         <img src="http://thumb101.shutterstock.com/display_pic_with_logo/78065/131607743/stock-photo-mock-up-of-a-daily-newspaper-on-a-white-background-the-name-title-headlines-and-stories-are-all-131607743.jpg">
         <img src="http://www.tamooracademy.com/wp-content/uploads/2015/01/Newspaper.jpg">
         <img src="http://www.gyllyngvase.co.uk/images/newspapers.jpg">
-        <img src="http://www.marshalldistrictlibrary.org/wp-content/uploads/2013/10/newspaper_shutterstock_124029454.jpg">
-        <img src="http://thumb9.shutterstock.com/display_pic_with_logo/682771/682771,1297721524,2/stock-photo-letters-cut-from-newspaper-background-71192197.jpg">
 
     </div>    
-
- <!--       <?php 
+        <ul>
+            <li>Kelly</li>
+    <?php 
         foreach ($albums as $name => $price){
-            if($name && $price){
-                echo "<li>" . "$name" ." $" . "$price" . "</li>";
-            }  
-        }                          
-        ?>     
 
--->
+                echo "<li>" . "$name: $price" . "</li>";
+                echo "<li>" . "Bob" . "</li>";
+
+        }                          
+    ?>     
+        </ul>
+
 </div>
 
 <div class="bottom-section">
@@ -120,7 +114,7 @@
         <h2>Band Members</h2>
                     
             <?php 
-            foreach ($bandMembers as $name=> $instrument){
+            foreach ($bandMembers as $name => $instrument){
                 if($name && $instrument){
                     echo "<li>" . "$name: $instrument" . "</li>";
                 }
@@ -130,6 +124,7 @@
                  
     <div class="bottom-right">
         <h2>Tour Dates</h2>
+            <ul>
             <?php 
             foreach ($tourCities as $date => $city){
                 if($date && $city){
@@ -137,6 +132,7 @@
                 }
             }    
             ?>   
+            </ul>
     </div>         
  </div>       
  <div class="full-width">       
