@@ -115,7 +115,7 @@
         <div class="pricing-table-header">
         <h2>Update Album Names and Prices</h2>
         </div>
-        <form action="albums.php">
+        <form action="index.php">
           <div class="pure-form">
             <fieldset>
             <div class="albumName1">

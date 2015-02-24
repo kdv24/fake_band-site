@@ -61,8 +61,8 @@
 
                     <ul class="pricing-table-list">
             <?php 
-            foreach ($albums as $$name => $price){
-                    echo "<li>" . "$album: $price" . "</li>";
+            foreach ($albums as $name => $price){
+                    echo "<li>" . "$name" ." " . "$" . "$price" . "</li>";
                 }                        
             ?>                      
                     </ul>
