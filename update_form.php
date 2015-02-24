@@ -36,7 +36,9 @@
     <!--[if gt IE 8]><!-->
         <link rel="stylesheet" href="css/layouts/pricing.css">
     <!--<![endif]-->
-  
+    
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+
 </head>
 <body>
 
@@ -234,9 +236,10 @@
 
       </div>
    
-          <button type="submit" class="btn">"Submit"</button>
-        </form>
+
   </div>
+            <button type="submit" class="pure-button centered">"Submit"</button>
+        </form>
 </div>
 
 </body>
