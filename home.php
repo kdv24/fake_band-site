@@ -94,7 +94,7 @@
     <?php 
         foreach ($albums as $name => $price){
             if($name && $price){
-                echo "<li>" . "$name: $price" . "</li>";
+                echo "<li>" . "$name: " . "$" . "$price" . "</li>";
             }
 
         }                          
