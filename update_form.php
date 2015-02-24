@@ -46,7 +46,7 @@
 
 <div class="l-content">
   <div class="pricing-tables pure-g">
-        <form action="variables.php">
+        <form action="home.php">
     <!-- BAND MEMBER NAMES -->
     <div class="pure-u-1 pure-u-md-1-3">
       <div class="pricing-table pricing-table-free">
