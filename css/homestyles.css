@@ -1,0 +1,97 @@
+
+.top-section {
+    border-bottom: 1px solid #28271C;
+	margin-top: 0%;
+	display: inline-block;
+	height: 450px;
+	width: 100%;
+}
+
+header {
+	background: transparent url('http://static.tumblr.com/7b37633d29d9aaca9828b5132273cdf1/sy59fz4/0b0nbac6y/tumblr_static_epdbdmcwalw808sgs0o8oc00k.jpg') 0 0 no-repeat fixed;
+    text-align: center;
+    background-size: cover;
+    background-position: center;  
+    height: 400px;
+    width: 100%;
+}
+
+header h1 {
+	font-size: 5rem;
+	margin-top: 1%;
+	padding-top: 60px;
+	font-family: 'Architects Daughter', cursive;
+}
+
+.middle-section {
+	background-color: gray;
+	margin-bottom: 1em;
+	padding: 1em;
+	border-bottom: 1px solid red;
+	font-family: 'Arvo', serif;
+}
+
+.bottom-section {
+	background-color: lightblue;
+	font-family: 'Arvo', serif;
+}
+
+.bottom-left {
+	background-color: lightgreen;
+	border: 2px solid darkgreen;
+}
+
+.bottom-middle {
+	background-color: lightblue;
+	border: 2px solid blue;
+}
+
+.bottom-right {
+	background-color: pink;
+	border: 2px solid red;
+}
+
+.full-width {
+	width: 100px;
+	margin: 2% auto 2% auto;
+
+}
+
+.update-button {
+	background-color: orange;
+	width: 100px;
+
+
+}
+
+.centered {
+	text-align: center;
+
+}
+
+.footer {
+	font-family: 'Arvo', serif;
+}
+
+.pricing-table-header h2 a {
+	color: white;
+}
+
+.album-image img {
+	height: 250px;
+	width: 250px;
+	border: 2px solid black;
+}
+
+@media screen and (max-width: 600px) {
+	header h1 {
+		font-size: 3.5rem;
+		padding-top: 60px;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	header h1 {
+		font-size: 3rem;
+	}
+}
