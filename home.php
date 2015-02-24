@@ -89,15 +89,26 @@
 
 <div class="middle-section">
     <h2>Albums</h2>
-        <?php 
+    <div class="album-images">
+        <img src="http://rsnash7.files.wordpress.com/2011/11/newspaper_20icon_15b15d.jpg">
+        <img src="http://thumb101.shutterstock.com/display_pic_with_logo/78065/131607743/stock-photo-mock-up-of-a-daily-newspaper-on-a-white-background-the-name-title-headlines-and-stories-are-all-131607743.jpg">
+        <img src="http://www.tamooracademy.com/wp-content/uploads/2015/01/Newspaper.jpg">
+        <img src="http://www.gyllyngvase.co.uk/images/newspapers.jpg">
+        <img src="http://www.marshalldistrictlibrary.org/wp-content/uploads/2013/10/newspaper_shutterstock_124029454.jpg">
+        <img src="http://thumb9.shutterstock.com/display_pic_with_logo/682771/682771,1297721524,2/stock-photo-letters-cut-from-newspaper-background-71192197.jpg">
+
+    </div>    
+
+ <!--       <?php 
         foreach ($albums as $name => $price){
             if($name && $price){
                 echo "<li>" . "$name" ." $" . "$price" . "</li>";
             }  
         }                          
         ?>     
-</div>
 
+-->
+</div>
 
 <div class="bottom-section">
     <div class="bottom-left">

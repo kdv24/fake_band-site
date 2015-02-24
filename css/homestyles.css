@@ -29,6 +29,16 @@ header h1 {
 	padding: 1em;
 	border-bottom: 1px solid red;
 	font-family: 'Arvo', serif;
+	display: inline-block;
+}
+
+.album-images img {
+	height: 250px;
+	width: 250px;
+	border: 2px solid black;
+	margin-left: auto;
+	margin-right: auto;
+
 }
 
 .bottom-section {
@@ -77,11 +87,7 @@ header h1 {
 	color: white;
 }
 
-.album-image img {
-	height: 250px;
-	width: 250px;
-	border: 2px solid black;
-}
+
 
 @media screen and (max-width: 600px) {
 	header h1 {
