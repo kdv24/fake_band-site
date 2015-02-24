@@ -35,6 +35,7 @@
     $albumPrice4 = $_GET["albumPrice4"]; // => "url('http://www.gyllyngvase.co.uk/images/newspapers.jpg')"];    
     $albumPrice5 = $_GET["albumPrice5"]; // => "url('http://www.marshalldistrictlibrary.org/wp-content/uploads/2013/10/newspaper_shutterstock_124029454.jpg')"];
     $albumPrice6 = $_GET["albumPrice6"]; // => "url('http://thumb9.shutterstock.com/display_pic_with_logo/682771/682771,1297721524,2/stock-photo-letters-cut-from-newspaper-background-71192197.jpg')"];
+ 
     $albums[$albumName1] = $albumPrice1;
     $albums[$albumName2] = $albumPrice2;
     $albums[$albumName3] = $albumPrice3;
@@ -52,15 +53,26 @@
     $tourDate4 = $_GET["tourDate4"];    
     $tourDate5 = $_GET["tourDate5"];
     $tourDate6 = $_GET["tourDate6"];
-    $tourDates = array($tourDate1, $tourDate2, $tourDate3, $tourDate4, $tourDate5, $tourDate6);    
-?> 
 
-<?php
     $tourCity1 = $_GET["tourCity1"];
     $tourCity2 = $_GET["tourCity2"];
     $tourCity3 = $_GET["tourCity3"];
     $tourCity4 = $_GET["tourCity4"];    
     $tourCity5 = $_GET["tourCity5"];
     $tourCity6 = $_GET["tourCity6"];
-    $tourCitys = array($tourCity1, $tourDate2, $tourDate3, $tourDate4, $tourDate5, $tourDate6);    
+    
+    $tourCities[$tourDate1] = $tourCity1;
+    $tourCities[$tourDate2] = $tourCity2;
+    $tourCities[$tourDate3] = $tourCity3;
+    $tourCities[$tourDate4] = $tourCity4;
+    $tourCities[$tourDate5] = $tourCity5;
+    $tourCities[$tourDate6] = $tourCity6;
+
 ?> 
+
+
+
+
+
+
+

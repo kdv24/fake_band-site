@@ -46,8 +46,10 @@
                     <ul class='pricing-table-list'>
             <?php 
             foreach ($bandMembers as $name=> $instrument){
+                if($name && $instrument){
                     echo "<li>" . "$name: $instrument" . "</li>";
                 }
+            }    
             ?>  
                     </ul>      
                 </div>
@@ -62,8 +64,10 @@
                     <ul class="pricing-table-list">
             <?php 
             foreach ($albums as $name => $price){
-                    echo "<li>" . "$name" ." " . "$" . "$price" . "</li>";
-                }                        
+                if($name && $price){
+                    echo "<li>" . "$name" ." $" . "$price" . "</li>";
+                }  
+            }                          
             ?>                      
                     </ul>
                 </div>
@@ -76,16 +80,17 @@
                     </div>
 
                     <ul class="pricing-table-list">
-                        <li><?php echo $tourDate1 . " in " . $tourCity1; ?></li>
-                        <li><?php echo $tourDate2 . " in " . $tourCity2; ?></li>
-                        <li><?php echo $tourDate3 . " in " . $tourCity3; ?></li>
-                        <li><?php echo $tourDate4 . " in " . $tourCity4; ?></li>
-                        <li><?php echo $tourDate5 . " in " . $tourCity5; ?></li>
-                        <li><?php echo $tourDate6 . " in " . $tourCity6; ?></li>
+                    <?php 
+                    foreach ($tourCities as $date => $city){
+                        if($date && $city){
+                        echo "<li>" . "$date" . " in " . "$city" . "</li>"; 
+                        }
+                    }    
+                    ?>    
                     </ul>
                 </div>
             </div>
-            <button class="pure-button"><a href="update_form.php">Update</a></button>
+            <button class="pure-button centered"><a href="update_form.php">Update</a></button>
         </div> <!-- end pricing-tables -->
 
        
