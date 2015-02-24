@@ -91,12 +91,11 @@
 
     </div>    
         <ul>
-            <li>Kelly</li>
     <?php 
         foreach ($albums as $name => $price){
-
+            if($name && $price){
                 echo "<li>" . "$name: $price" . "</li>";
-                echo "<li>" . "Bob" . "</li>";
+            }
 
         }                          
     ?>     
