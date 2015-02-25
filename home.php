@@ -79,6 +79,7 @@
     <header>
         <h1>SCREAMING NEWSPAPERS</h1>
     </header>
+    <div class="line-break"></div>
 </div>
 
 <div class="middle-section">
@@ -102,15 +103,26 @@
         </ul>
 
 </div>
-
+<div class="line-break"></div>
 <div class="bottom-section">
     <div class="bottom-left">
-        <h2>FOLLOW US</h2>
-        <h2>STAY IN TOUCH</h2>
+        <div class="bottom-column-text">
+            <h2>FOLLOW US</h2>
+            <div class="social">
+                <p>t</p>
+                <p>f</p>
+                <p>g+</p>
+                <p>rss</p>
+            </div>    
+        </div> 
+        <div class="bottom-column-text">   
+            <h2>STAY IN TOUCH</h2>
+        </div>
     </div>    
 
     <div class="bottom-middle">
-        <h2>Band Members</h2>
+        <div class="bottom-column-text">
+        <h2>BAND MEMBERS</h2>
                     
             <?php 
             foreach ($bandMembers as $name => $instrument){
@@ -118,11 +130,13 @@
                     echo "<li>" . "$name: $instrument" . "</li>";
                 }
             }    
-            ?>  
+            ?> 
+        </div>     
     </div>         
                  
     <div class="bottom-right">
-        <h2>Tour Dates</h2>
+        <div class="bottom-column-text">
+        <h2>TOUR DATES</h2>
             <ul>
             <?php 
             foreach ($tourCities as $date => $city){
@@ -132,6 +146,7 @@
             }    
             ?>   
             </ul>
+        </div>    
     </div>         
  </div>       
  <div class="full-width">       
