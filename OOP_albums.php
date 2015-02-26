@@ -6,36 +6,24 @@
     public $price;
     public $cover_art;
 
+    function __construct($band_name, $album_name, $album_price, $album_cover)
+    {
+      $this->artist = $band_name;
+      $this->title = $album_name;
+      $this->price = $album_price;
+      $this->cover_art = $album_cover;
+    }
+
     function itemMatch($title_match)
       {
         return $this->title == $title_match;
       }
   }
 
-  $album1 = new Album();
-  $album1->artist = "Screaming Newspapers";
-  $album1->title = "Sneakers";
-  $album1->price = "15.00";
-  $album1->cover_art = "https://farm3.staticflickr.com/2684/4445168437_7010ccc10b_n.jpg";
-
-  $album2 = new Album();
-  $album2->artist = "Screaming Newspapers";
-  $album2->title = "Bikes on Main Street";
-  $album2->price = "19.00";
-  $album2->cover_art = "https://farm3.staticflickr.com/2552/4167165950_59d8f83e29_n.jpg";
-
-
-  $album3 = new Album();
-  $album3->artist = "Screaming Newspapers";
-  $album3->title = "The Music Scene";
-  $album3->price = "15.00";
-  $album3->cover_art = "https://farm3.staticflickr.com/2779/4479566238_6c0b6ea80b_n.jpg";
-
-  $album4 = new Album();
-  $album4->artist = "Screaming Newspapers";
-  $album4->title = "Boots";
-  $album4->price = "15.00";
-  $album4->cover_art ="img/red_boots.jpg";
+  $album1 = new Album("Screaming Newspapers", "Sneakers", 15.00, "https://farm3.staticflickr.com/2684/4445168437_7010ccc10b_n.jpg");
+  $album2 = new Album("Screaming Newspapers", "Bikes on Main Street", 19.00, "https://farm3.staticflickr.com/2552/4167165950_59d8f83e29_n.jpg");
+  $album3 = new Album("Screaming Newspapers", "The Music Scene", 15.00, "https://farm3.staticflickr.com/2779/4479566238_6c0b6ea80b_n.jpg");
+  $album4 = new Album("Screaming Newspapers", "Boots", 15.00, "img/red_boots.jpg");
 
   $albums_info = array($album1, $album2, $album3, $album4);
 
