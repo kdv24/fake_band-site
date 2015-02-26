@@ -21,6 +21,7 @@
     $bandMembers[$bandMemberName6] = $bandMemberInstrument6;  
 ?>  
 
+
 <?php
     $albumName1 = $_GET["albumName1"];
     $albumName2 = $_GET["albumName2"];
@@ -85,13 +86,11 @@
 <div class="middle-section">
     <h2>Albums</h2>
     <div class="album-images">
-        <a href="https://www.flickr.com/photos/windysydney/4445168437" title="Converse by Andee Duncan, on Flickr"><img src="https://farm3.staticflickr.com/2684/4445168437_7010ccc10b_n.jpg" width="320" height="227" alt="Converse"></a>
-        <a href="https://www.flickr.com/photos/windysydney/4167165950" title="Bikes on Main Street by Andee Duncan, on Flickr"><img src="https://farm3.staticflickr.com/2552/4167165950_59d8f83e29_n.jpg" width="320" height="191" alt="Bikes on Main Street"></a>
-        <a href="https://www.flickr.com/photos/windysydney/4479566238" title="The Music Scene by Andee Duncan, on Flickr"><img src="https://farm3.staticflickr.com/2779/4479566238_6c0b6ea80b_n.jpg" width="213" height="320" alt="The Music Scene"></a>
-        <a href="https://www.flickr.com/photos/windysydney/4445996616" title="Boots by Andee Duncan, on Flickr"><img src="https://farm5.staticflickr.com/4039/4445996616_741df06d94_n.jpg" width="320" height="202" alt="Boots"></a>
+            <img src="https://farm3.staticflickr.com/2684/4445168437_7010ccc10b_n.jpg" width="320" height="227" alt="Converse"></a>
+            <img src="https://farm3.staticflickr.com/2552/4167165950_59d8f83e29_n.jpg" width="320" height="191" alt="Bikes on Main Street"></a>
+            <img src="https://farm3.staticflickr.com/2779/4479566238_6c0b6ea80b_n.jpg" width="213" height="320" alt="The Music Scene"></a>
+            <img src="https://farm5.staticflickr.com/4039/4445996616_741df06d94_n.jpg" width="320" height="202" alt="Boots"></a>
 
-    </div>    
-        <ul>
     <?php 
         foreach ($albums as $name => $price){
             if($name && $price){
@@ -99,8 +98,11 @@
             }
 
         }                          
-    ?>     
-        </ul>
+    ?> 
+    </div>    
+
+        
+
 
 </div>
 <div class="line-break"></div>
@@ -121,7 +123,7 @@
             <form action="stay-in-touch">
                 <label for="subscribe"></label>  
                 <input id="subscribe" name="subscribe" type="text" placeholder="email address">
-                <h5>Add your email to fear about new music and tour dates!</h5>
+                <h5>Add your email to hear about new music and tour dates!</h5>
             </form>
         </div>
     </div>    
@@ -133,7 +135,7 @@
             <?php 
             foreach ($bandMembers as $name => $instrument){
                 if($name && $instrument){
-                    echo "<h4>" . "$name: $instrument" . "</h4>";
+                    echo "<h3>" . "$name: $instrument" . "</h3>";
                 }
             }    
             ?> 
@@ -158,7 +160,7 @@
  <div class="full-width">       
     <button class="update-button centered"><a href="update_form.php">Update</a></button>
  </div>
-
+<br>
     <div class="footer centered">
             <p>Copyright <?php echo date ("Y"); ?> </p>
     </div>
