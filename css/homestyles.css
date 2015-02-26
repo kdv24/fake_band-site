@@ -1,6 +1,7 @@
 
 body {
 	margin: 2%;
+	background-color: #393939
 }
 
 .top-section {
@@ -30,16 +31,13 @@ header h1 {
 .line-break {
 	height: 20px;
 	width: 100%;
-    border-bottom: 1px solid #28271C;
+    border-bottom: 1px solid #fffdeb;
 }
 
 .middle-section {
 	width: 100%;
-	background-color: gray;
 	margin-bottom: 1em;
 	padding: 1em;
-	border-bottom: 1px solid red;
-	font-family: 'Arvo', serif;
 	display: inline-block;
 	padding-left: 0px;
 	padding-right: 0px;
@@ -48,8 +46,13 @@ header h1 {
 .middle-section h2 {
 	margin-left: 5%;
 	margin-right: 5%;
+	color: #fffdeb;
+	display: inline-block;
+	float: left;
 }
+
 .album-images {
+	display: inline-block;
 	width: 100%;
 }
 
@@ -66,10 +69,20 @@ header h1 {
 	background-color: #fffdeb;
 }
 
+.album-images h2 {
+	display: inline-block;
+	width: 100%;
+}
+
 .album-images h3 {
 	text-align: center;
-	color: orange;
+	color: #d5503f;
+	text-shadow: 10px, 1px #393939;
 	font-family: 'Architects Daughter', curive;
+	font-size: 1.5rem;
+	display: inline-block;
+	float: left;
+	padding: 2% 5%;
 }
 
 .bottom-section {
@@ -77,6 +90,7 @@ header h1 {
 	height: 350px;
 	margin-left: auto;
 	font-family: 'Architects Daughter', cursive;
+	color: #fffdeb;
 }
 
 .bottom-left {
@@ -92,32 +106,10 @@ header h1 {
 	float: center;
 }
 
-.bottom-column-text h2 {
-	margin-left: 5%;
-}
-
-
-
-.bottom-column-text p {
-	width: 25px;
-	height: 25px;
-	display: inline-block;
-	float: center;
-	margin-left: auto;
-	margin-right: auto;
-	border: 1px solid black;
-	text-align: center;
-	padding: 4%;
-}
-
-.social p {
-}
-
 .bottom-middle {
-	width: 30%;
-	height: 100%;	
+	width: 40%;
+	height: 100%;
 	float: left;
-	margin-left: 20px;	
 }
 
 .bottom-right {
@@ -132,27 +124,23 @@ header h1 {
 }
 
 .update-button {
-	background-color: orange;
+	width: 100%;
+}
+
+button.update-button {	
+	background-color: #d5503f;
 	width: 100px;
-	margin-top: 20%;
 	float: left;
 }
 
 .centered {
 	text-align: center;
-	display: inline-block;
 }
 
 .footer {
 	font-family: 'Arvo', serif;
 	width: 100%;
-	display: inline-block;
-	float: left;
 	margin-top: 10%;
-}
-
-.pricing-table-header h2 a {
-	color: #fffdeb;
 }
 
 

@@ -157,12 +157,12 @@
         </div>    
     </div>         
  </div>       
- <div class="full-width">       
-    <button class="update-button centered"><a href="update_form.php">Update</a></button>
- </div>
-<br>
+ 
+
     <div class="footer centered">
-            <p>Copyright <?php echo date ("Y"); ?> </p>
+        
+        <button class="update-button"><a href="update_form.php">Update</a></button>
+        <p>Copyright <?php echo date ("Y"); ?> </p>       
     </div>
 
 
