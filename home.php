@@ -85,10 +85,10 @@
 <div class="middle-section">
     <h2>Albums</h2>
     <div class="album-images">
-        <img src="http://rsnash7.files.wordpress.com/2011/11/newspaper_20icon_15b15d.jpg">
-        <img src="http://thumb101.shutterstock.com/display_pic_with_logo/78065/131607743/stock-photo-mock-up-of-a-daily-newspaper-on-a-white-background-the-name-title-headlines-and-stories-are-all-131607743.jpg">
-        <img src="http://www.tamooracademy.com/wp-content/uploads/2015/01/Newspaper.jpg">
-        <img src="http://www.gyllyngvase.co.uk/images/newspapers.jpg">
+        <a href="https://www.flickr.com/photos/windysydney/4445168437" title="Converse by Andee Duncan, on Flickr"><img src="https://farm3.staticflickr.com/2684/4445168437_7010ccc10b_n.jpg" width="320" height="227" alt="Converse"></a>
+        <a href="https://www.flickr.com/photos/windysydney/4167165950" title="Bikes on Main Street by Andee Duncan, on Flickr"><img src="https://farm3.staticflickr.com/2552/4167165950_59d8f83e29_n.jpg" width="320" height="191" alt="Bikes on Main Street"></a>
+        <a href="https://www.flickr.com/photos/windysydney/4479566238" title="The Music Scene by Andee Duncan, on Flickr"><img src="https://farm3.staticflickr.com/2779/4479566238_6c0b6ea80b_n.jpg" width="213" height="320" alt="The Music Scene"></a>
+        <a href="https://www.flickr.com/photos/windysydney/4445996616" title="Boots by Andee Duncan, on Flickr"><img src="https://farm5.staticflickr.com/4039/4445996616_741df06d94_n.jpg" width="320" height="202" alt="Boots"></a>
 
     </div>    
         <ul>
@@ -113,10 +113,16 @@
                 <p>f</p>
                 <p>g+</p>
                 <p>rss</p>
-            </div>    
+            </div>  
         </div> 
         <div class="bottom-column-text">   
             <h2>STAY IN TOUCH</h2>
+
+            <form action="stay-in-touch">
+                <label for="subscribe"></label>  
+                <input id="subscribe" name="subscribe" type="text" placeholder="email address">
+                <h5>Add your email to fear about new music and tour dates!</h5>
+            </form>
         </div>
     </div>    
 
@@ -127,7 +133,7 @@
             <?php 
             foreach ($bandMembers as $name => $instrument){
                 if($name && $instrument){
-                    echo "<li>" . "$name: $instrument" . "</li>";
+                    echo "<h4>" . "$name: $instrument" . "</h4>";
                 }
             }    
             ?> 
@@ -137,15 +143,15 @@
     <div class="bottom-right">
         <div class="bottom-column-text">
         <h2>TOUR DATES</h2>
-            <ul>
+           
             <?php 
             foreach ($tourCities as $date => $city){
                 if($date && $city){
-                echo "<li>" . "$date" . " in " . "$city" . "</li>"; 
+                echo "<h3>" . "$date" . "<br>" . " in " . "$city" . "</h3>"; 
                 }
             }    
             ?>   
-            </ul>
+           
         </div>    
     </div>         
  </div>       
