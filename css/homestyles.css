@@ -54,15 +54,15 @@ header h1 {
 
 .album-images img {
 	height: 250px;
-	width: 250px;
+	width: 300px;
 	border: 2px solid black;
 	margin-left: 5%;
 	margin-right: auto;
 	margin-bottom: 5%;
-	padding: 2%;
-	padding-bottom: 35%;
+	padding: 0%;
+	padding-bottom: 15%;
 	float: top;
-	background-color: green;
+	background-color: #fffdeb;
 }
 
 .bottom-section {
@@ -105,7 +105,8 @@ header h1 {
 	border: 1px solid black;
 	text-align: center;
 	padding: 4%;
-	background-color: white;
+	background-color: #fffdeb;
+
 }
 
 .social p {
@@ -151,7 +152,7 @@ header h1 {
 }
 
 .pricing-table-header h2 a {
-	color: white;
+	color: #fffdeb;
 }
 
 
