@@ -53,6 +53,7 @@
 <html>
   <head>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
     <title>Album Search Results
     </title>
   </head>
@@ -62,12 +63,12 @@
       <?php
         foreach($albums_matching_search as $album_info){
           $cost = $album_info->getPrice();
-          echo "<li> $album_info->title</li>";
-          echo "<ul>";
-            echo "<img src='$album_info->cover_art'>";
-            echo "<li> $album_info->artist </li>";
-            echo "<p> $$cost</p>";
-          echo "</ul>";
+          echo "<li> $album_info->title</li>
+            <ul>
+              <img src='$album_info->cover_art'>
+              <li> $album_info->artist </li>
+              <p> $$cost</p>
+            </ul>";
         }
       ?>
     </div>

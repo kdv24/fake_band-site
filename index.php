@@ -13,14 +13,14 @@
     <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
 
 <!--[if lte IE 8]>
-  
+
     <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/grids-responsive-old-ie-min.css">
-  
+
 <![endif]-->
 <!--[if gt IE 8]><!-->
-  
+
     <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/grids-responsive-min.css">
-  
+
 <!--<![endif]-->
 
     <!--[if lte IE 8]>
@@ -44,14 +44,14 @@
                         <h2>Band Members</h2>
                     </div>
                     <ul class='pricing-table-list'>
-            <?php 
+            <?php
             foreach ($bandMembers as $name=> $instrument){
                 if($name && $instrument){
-                    echo "<li>" . "$name: $instrument" . "</li>";
+                    echo "<li> $name: $instrument </li>";
                 }
-            }    
-            ?>  
-                    </ul>      
+            }
+            ?>
+                    </ul>
                 </div>
             </div>
 
@@ -62,13 +62,13 @@
                     </div>
 
                     <ul class="pricing-table-list">
-            <?php 
+            <?php
             foreach ($albums as $name => $price){
                 if($name && $price){
                     echo "<li>" . "$name" ." $" . "$price" . "</li>";
-                }  
-            }                          
-            ?>                      
+                }
+            }
+            ?>
                     </ul>
                 </div>
             </div>
@@ -80,20 +80,20 @@
                     </div>
 
                     <ul class="pricing-table-list">
-                    <?php 
+                    <?php
                     foreach ($tourCities as $date => $city){
                         if($date && $city){
-                        echo "<li>" . "$date" . " in " . "$city" . "</li>"; 
+                        echo "<li>" . "$date" . " in " . "$city" . "</li>";
                         }
-                    }    
-                    ?>    
+                    }
+                    ?>
                     </ul>
                 </div>
             </div>
             <button class="pure-button centered"><a href="update_form.php">Update</a></button>
         </div> <!-- end pricing-tables -->
 
-       
+
     </div> <!-- end l-content -->
 
     <div class="footer l-box">

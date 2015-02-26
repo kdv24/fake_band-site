@@ -5,7 +5,7 @@ body {
 }
 
 .top-section {
-    border-bottom: 1px solid #28271C;
+  border-bottom: 1px solid #28271C;
 	margin-top: 0%;
 	display: inline-block;
 	height: 450px;
@@ -14,11 +14,11 @@ body {
 
 header {
 	background: transparent url('http://static.tumblr.com/7b37633d29d9aaca9828b5132273cdf1/sy59fz4/0b0nbac6y/tumblr_static_epdbdmcwalw808sgs0o8oc00k.jpg') 0 0 no-repeat fixed;
-    text-align: center;
-    background-size: cover;
-    background-position: center;  
-    height: 400px;
-    width: 100%;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  width: 100%;
 }
 
 header h1 {
@@ -31,9 +31,12 @@ header h1 {
 .line-break {
 	height: 20px;
 	width: 100%;
-    border-bottom: 1px solid #fffdeb;
+  border-bottom: 1px solid #fffdeb;
 }
 
+.orange {
+	color: #d5503f
+}
 .middle-section {
 	width: 100%;
 	margin-bottom: 1em;
@@ -85,7 +88,7 @@ h3.name {
 	color: #d5503f;
 	padding-left: 1%;
 	padding-right: 2%;
-}	
+}
 
 h3.price {
 	color: #fffdeb;
@@ -132,9 +135,9 @@ h3.price {
 }
 
 .bottom-right {
-	width: 30%;	
-	height: 100%;	
-	float: right;	
+	width: 30%;
+	height: 100%;
+	float: right;
 }
 
 .full-width {
@@ -146,7 +149,7 @@ h3.price {
 	width: 100%;
 }
 
-button.update-button {	
+button.update-button {
 	background-color: #d5503f;
 	width: 100px;
 	float: left;
