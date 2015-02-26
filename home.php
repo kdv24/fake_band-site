@@ -94,7 +94,7 @@
     <?php 
         foreach ($albums as $name => $price){
             if($name && $price){
-                echo "<h3>" . "$name: " . "$" . "$price" . "</h3>";
+                echo "<h3 class='name'>" . "$name: " . "</h3>" . "<h3 class='price'>" . "$" . "$price" . "</h3>";
             }
 
         }                          
@@ -108,7 +108,7 @@
 <div class="line-break"></div>
 <div class="bottom-section">
     <div class="bottom-left">
-        <div class="bottom-column-text">
+        <div class="bottom-left-parts">
             <h2>FOLLOW US</h2>
             <div class="social">
                 <p>t</p>
@@ -117,7 +117,7 @@
                 <p>rss</p>
             </div>  
         </div> 
-        <div class="bottom-column-text">   
+        <div class="bottom-left-parts">   
             <h2>STAY IN TOUCH</h2>
 
             <form action="stay-in-touch">
